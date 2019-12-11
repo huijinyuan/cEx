@@ -20,22 +20,22 @@ int main(int argc, char *argv[]) {
 	
 	switch(score){
 		case 0 ... 11: 
-		printf("You are fail.\n");
+		printf("You are fail.\n\n");
 		break;
 		case 12 ... 13: 
-		printf("Your grade is 1.\n");
+		printf("Your grade is 1.\n\n");
 		break;
 		case 14 ... 16: 
-		printf("Your grade is 2.\n");
+		printf("Your grade is 2.\n\n");
 		break;
 		case 17 ... 19: 
-		printf("Your grade is 3.\n");
+		printf("Your grade is 3.\n\n");
 		break;
 		case 20 ... 22: 
-		printf("Your grade is 4.\n");
+		printf("Your grade is 4.\n\n");
 		break;
 		case 23 ... 24: 
-		printf("Your grade is 5. \n");
+		printf("Your grade is 5. \n\n");
 		break;
 		
 	}
