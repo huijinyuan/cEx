@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 		printf("Input the score (0-24):\n");
 		scanf("%d", &score);
 		if(score<0||score>24){
-			printf("You have input invalid number.\n");			
+			printf("You have input invalid number.\n\n");			
 		}
 		
 	}while(score<0||score>24);
