@@ -33,8 +33,8 @@ int main(int argc, char *argv[]) {
 	
 	areaOfLawn= landWidth*landLength - houseWidth*houseLength; 
 	areaOfLawnMover=5000*0.7;// m*m 
-	timeOfCut = areaOfLawn/areaOfLawnMover*60*60; //minutes
-	printf("\nThe required time to cut the lawn is %.0lf seconds. ", timeOfCut);
+	timeOfCut = areaOfLawn/areaOfLawnMover*60; //minutes
+	printf("\nThe required time to cut the lawn is %.0lf minutes. ", timeOfCut);
 	
 		
 	return 0;
