@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	int x,y,z;
 	printf("Input the row number(s) :\n");	
 	scanf("%d", &z);
-	printf("Print %d rows figures. \n");
+	printf("Print %d rows figures.\n", z);
 		//control the rows
 		for(x=1; x<=z; x++)
 		{
