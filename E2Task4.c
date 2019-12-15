@@ -20,51 +20,17 @@ int main(int argc, char *argv[]) {
 	double areaOfLawnMover;
 	double timeOfCut; //hours 
 	
-	do {		
-		printf("\nInput the width of the land(m):");
-		scanf("%lf", &landWidth);	
-		printf("\n");
-	}while(landWidth<=0);
+	printf("Input the width of the land:");
+	scanf("%lf", &landWidth);
 	
-	do {
-		printf("\nInput the length of the land (m):");
-		scanf("%lf", &landLength);
-		printf("\n");
-	}while(landLength<=0);
+	printf("\nInput the length of the land:");
+	scanf("%lf", &landLength);
 	
-	do {
-		printf("\nInput the width of the house(m):");
-		scanf("%lf", &houseWidth);
-		printf("\n");
-		if(houseWidth>=landWidth)
-		{
-			printf("Your house width should shorter than land width! \n"); 
-			printf("\n");
-		}
-	}while(houseWidth<=0);
+	printf("\nInput the width of the house:");
+	scanf("%lf", &houseWidth);
 	
-	do {
-		printf("\nInput the length of the house (m):");
-		scanf("%lf", &houseLength);
-		printf("\n");
-		if(houseLength>=landLength)
-		{
-			printf("Your house length should shorter than land length! \n"); 
-			printf("\n");
-		}
-	}while(houseLength<=0);
-	
-	//printf("Input the width of the land:");
-	//scanf("%lf", &landWidth);
-	
-	//printf("\nInput the length of the land:");
-	//scanf("%lf", &landLength);
-	
-	//printf("\nInput the width of the house:");
-	//scanf("%lf", &houseWidth);
-	
-	//printf("\nInput the length of the house:");
-	//scanf("%lf", &houseLength);
+	printf("\nInput the length of the house:");
+	scanf("%lf", &houseLength);
 	
 	areaOfLawn= landWidth*landLength - houseWidth*houseLength; //m*m
 	areaOfLawnMover=5000*0.7;// m*m 
