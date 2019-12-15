@@ -9,8 +9,9 @@
 
 int main(int argc, char *argv[]) {
 	int x,y,z;
-	printf("Input the row number(s) :");
+	printf("Input the row number(s) :\n");	
 	scanf("%d", &z);
+	printf("Print %d rows figures. \n");
 		//control the rows
 		for(x=1; x<=z; x++)
 		{
@@ -20,7 +21,7 @@ int main(int argc, char *argv[]) {
 					{
 						printf("*\t");
 					}
-					else printf("?\t");	//may use other symbol, as well as the empty space					
+					else printf("$\t");	//may use other symbol, as well as the empty space					
 			}	
 				printf("\n");	//change the line
 				
