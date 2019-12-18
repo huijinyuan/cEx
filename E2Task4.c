@@ -80,8 +80,10 @@ int main(int argc, char *argv[]) {
 			
 	}while(houseLength>=landLength-1 || houseLength<=houseWidth+1);	
 	
-
-	
+	areaOfLawn= landWidth*landLength - houseWidth*houseLength; //m*m
+	areaOfLawnMover=5000*0.7;// m*m
+	timeOfCut = areaOfLawn/areaOfLawnMover*60; //minutes
+	printf("\nThe required time to cut the lawn is %.0lf minutes. \n", timeOfCut);	
 		
 	return 0;
 }
